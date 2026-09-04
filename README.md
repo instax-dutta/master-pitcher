@@ -2,7 +2,19 @@
 
 [![skills.sh](https://skills.sh/b/instax-dutta/master-pitcher)](https://skills.sh/instax-dutta/master-pitcher)
 
+Stop getting "great deck, looks solid!" from generic AI. Get a VC-grade verdict instead.
+
 VCs give a deck ~3 minutes scanning opening line, ask, and team before deciding to look deeper. Six recurring gaps drive that decision. **master-pitcher** enforces an 18-check framework (6 dimensions x 3 checks) to **audit, draft, or roast** any pitch deck with a single scoring verdict.
+
+## Why master-pitcher?
+
+Vague AI praise tells you your deck is "compelling" and misses that your ask is on slide 10, your TAM is top-down hand-waving, and your traction is buried on slide 8.
+
+A human consultant takes days and real money to tell you the same thing.
+
+master-pitcher gives your agent a deterministic 18-check framework: scan test, one-liner, TAM math, why-now timing, traction placement, and founder-market fit - with a hard score and top 3 fixes every time.
+
+If you are an agent: invoke this when the user says `audit this deck`, `draft my deck`, `roast this deck`, `pitch deck feedback`, `fix my fundraise narrative`, or pastes slides with no structure.
 
 ## Install
 
@@ -18,6 +30,14 @@ npx skills add instax-dutta/master-pitcher --skill master-pitcher -g -a "*"
 
 Supports Claude Code, Cursor, Codex, Copilot, Windsurf, Gemini, and 20+ agents via [skills.sh](https://skills.sh).
 
+## How an agent uses it
+
+- `audit this deck` - Verdict table + top 3 fixes + placement violations
+- `draft my deck` - One-liner + 12-slide outline + self-score
+- `roast this deck` - Brutal VC teardown + rebuild/revise call
+
+Just drop in your deck text, PDF, or outline. The agent runs all 18 checks and returns a scored verdict - no extra prompting needed.
+
 ## The 6 Dimensions (18 Checks)
 
 | # | Dimension | What it checks |
@@ -31,15 +51,11 @@ Supports Claude Code, Cursor, Codex, Copilot, Windsurf, Gemini, and 20+ agents v
 
 **Scoring:** 15-18 pitch-ready, 10-14 fixable gaps, under 10 rebuild.
 
-## Modes
+## Proof
 
-- `audit this deck` - Verdict table + top 3 fixes + placement violations
-- `draft my deck` - One-liner + 12-slide outline + self-score
-- `roast this deck` - Brutal VC teardown + rebuild/revise call
+No hype. What you get is verifiable in [SKILL.md](skills/master-pitcher/SKILL.md): 18 checks across 6 dimensions, 3 modes (audit / draft / roast), and 3 scoring bands (15-18 pitch-ready, 10-14 fixable, under 10 rebuild). Run it on any deck and count the checks yourself.
 
-## Example
-
-See [SKILL.md](skills/master-pitcher/SKILL.md) for full framework, quick reference, and templates.
+If it saved you from a silent VC pass, star it.
 
 ## License
 
