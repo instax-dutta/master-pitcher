@@ -44,3 +44,12 @@ See [SKILL.md](skills/master-pitcher/SKILL.md) for full framework, quick referen
 ## License
 
 MIT
+
+## More agent skills by me
+
+- [flash-compare](https://github.com/instax-dutta/flash-compare) - Flash-style top-1% product comparisons, exactly how flash.co works
+- [brand-vibes](https://github.com/instax-dutta/brand-vibes) - Apply any company's design language while vibecoding, 66 brand profiles
+- [roadmap-tutor](https://github.com/instax-dutta/roadmap-tutor) - Learn any roadmap.sh roadmap one topic at a time, tracked across sessions
+- [market-validator](https://github.com/instax-dutta/market-validator) - Validate SaaS ideas with real user complaints across 10+ platforms
+- [scroll-3d-world](https://github.com/instax-dutta/scroll-3d-world) - Scroll-scrubbed 3D fly-through landing pages in Three.js, no AI video
+- [google-code-review](https://github.com/instax-dutta/google-code-review) - Google's code review best practices as an agent skill
